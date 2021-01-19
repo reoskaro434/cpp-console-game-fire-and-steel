@@ -1,0 +1,10 @@
+﻿  game.cpp
+c:\users\reosk\desktop\08.12 przed zmiana\fire and steel\fire and steel\game.cpp(13): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  pathCreator.cpp
+c:\users\reosk\desktop\08.12 przed zmiana\fire and steel\fire and steel\pathcreator.cpp(159): warning C4390: ";": znaleziono kontrolowaną pustą instrukcję; czy to było zamierzone?
+c:\users\reosk\desktop\08.12 przed zmiana\fire and steel\fire and steel\pathcreator.cpp(167): warning C4390: ";": znaleziono kontrolowaną pustą instrukcję; czy to było zamierzone?
+c:\users\reosk\desktop\08.12 przed zmiana\fire and steel\fire and steel\pathcreator.cpp(175): warning C4390: ";": znaleziono kontrolowaną pustą instrukcję; czy to było zamierzone?
+c:\users\reosk\desktop\08.12 przed zmiana\fire and steel\fire and steel\pathcreator.cpp(183): warning C4390: ";": znaleziono kontrolowaną pustą instrukcję; czy to było zamierzone?
+  Generowanie kodu...
+c:\users\reosk\desktop\08.12 przed zmiana\fire and steel\fire and steel\pathcreator.cpp(108): warning C4172: zwracanie adresu lokalnej zmiennej lub tymczasowej: smallestFElement
+  Fire and Steel.vcxproj -> C:\Users\reosk\Desktop\08.12 przed zmiana\Fire and Steel\Debug\Fire and Steel.exe

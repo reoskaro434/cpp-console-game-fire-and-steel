@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\places">
+      <UniqueIdentifier>{f762b6bb-cf63-4f8c-8d33-f3373c0c7453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\places">
+      <UniqueIdentifier>{6d21128c-d9ee-45ee-8615-f456f303cf4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\keys and defines">
+      <UniqueIdentifier>{41b90f4a-41b5-47cd-bf0c-d0f2a878728e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\keys and defines">
+      <UniqueIdentifier>{410a0356-3ae9-4f09-bb97-c486248618b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\major">
+      <UniqueIdentifier>{02c59dac-d8f1-49cb-a5bf-c0a3f5539629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\major">
+      <UniqueIdentifier>{1e5ae6b3-4e5e-4168-a7b8-0d8716dbfa86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\map and move">
+      <UniqueIdentifier>{c3ef1780-8bb9-41f5-931b-ef0ce2939245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\character and obiects">
+      <UniqueIdentifier>{c0c0f87b-8671-4164-9cd3-ed0c5165fc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\character and obiects">
+      <UniqueIdentifier>{be5ad6d5-8a12-4da0-9986-8208718db336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\fightElements">
+      <UniqueIdentifier>{8598edc8-6f8b-41e1-bec5-c899a56cf700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\fightElements">
+      <UniqueIdentifier>{ed1e46ac-4bd4-4c31-83c9-669850d04ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\AI">
+      <UniqueIdentifier>{7e40e021-3c25-4ec5-bbef-87dad145c9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\AI">
+      <UniqueIdentifier>{3fd9caee-211b-4d85-980d-f5531e83f216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\missions">
+      <UniqueIdentifier>{9992e0bc-4904-4c4a-bdd2-702d52428277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\missions">
+      <UniqueIdentifier>{a6138287-7ba0-47a5-9c8d-bd76ce43c609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\major\map and move">
+      <UniqueIdentifier>{a4e1366a-d5ed-4250-b928-f2893a3ae4fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="castle.cpp">
+      <Filter>Pliki źródłowe\places</Filter>
+    </ClCompile>
+    <ClCompile Include="town.cpp">
+      <Filter>Pliki źródłowe\places</Filter>
+    </ClCompile>
+    <ClCompile Include="minersVillage.cpp">
+      <Filter>Pliki źródłowe\places</Filter>
+    </ClCompile>
+    <ClCompile Include="woodcuttersVillage.cpp">
+      <Filter>Pliki źródłowe\places</Filter>
+    </ClCompile>
+    <ClCompile Include="places.cpp">
+      <Filter>Pliki źródłowe\places</Filter>
+    </ClCompile>
+    <ClCompile Include="placesList.cpp">
+      <Filter>Pliki źródłowe\places</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboardControls.cpp">
+      <Filter>Pliki źródłowe\keys and defines</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Pliki źródłowe\major</Filter>
+    </ClCompile>
+    <ClCompile Include="gameEvent.cpp">
+      <Filter>Pliki źródłowe\major</Filter>
+    </ClCompile>
+    <ClCompile Include="mapElement.cpp">
+      <Filter>Pliki źródłowe\map and move</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Pliki źródłowe\map and move</Filter>
+    </ClCompile>
+    <ClCompile Include="pawn.cpp">
+      <Filter>Pliki źródłowe\map and move</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics.cpp">
+      <Filter>Pliki źródłowe\character and obiects</Filter>
+    </ClCompile>
+    <ClCompile Include="obiect.cpp">
+      <Filter>Pliki źródłowe\character and obiects</Filter>
+    </ClCompile>
+    <ClCompile Include="items.cpp">
+      <Filter>Pliki źródłowe\character and obiects</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Pliki źródłowe\character and obiects</Filter>
+    </ClCompile>
+    <ClCompile Include="trade.cpp">
+      <Filter>Pliki źródłowe\character and obiects</Filter>
+    </ClCompile>
+    <ClCompile Include="arcadeGame.cpp">
+      <Filter>Pliki źródłowe\character and obiects</Filter>
+    </ClCompile>
+    <ClCompile Include="fight.cpp">
+      <Filter>Pliki źródłowe\fightElements</Filter>
+    </ClCompile>
+    <ClCompile Include="prepareToFight.cpp">
+      <Filter>Pliki źródłowe\fightElements</Filter>
+    </ClCompile>
+    <ClCompile Include="scriptPlayer.cpp">
+      <Filter>Pliki źródłowe\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="pathCreator.cpp">
+      <Filter>Pliki źródłowe\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="pathNode.cpp">
+      <Filter>Pliki źródłowe\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="save.cpp">
+      <Filter>Pliki źródłowe\major</Filter>
+    </ClCompile>
+    <ClCompile Include="load.cpp">
+      <Filter>Pliki źródłowe\major</Filter>
+    </ClCompile>
+    <ClCompile Include="recon.cpp">
+      <Filter>Pliki źródłowe\places</Filter>
+    </ClCompile>
+    <ClCompile Include="missionWoodcutters.cpp">
+      <Filter>Pliki źródłowe\missions</Filter>
+    </ClCompile>
+    <ClCompile Include="missionTown.cpp">
+      <Filter>Pliki źródłowe\missions</Filter>
+    </ClCompile>
+    <ClCompile Include="missionMiners.cpp">
+      <Filter>Pliki źródłowe\missions</Filter>
+    </ClCompile>
+    <ClCompile Include="missionCastle.cpp">
+      <Filter>Pliki źródłowe\missions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="woodcuttersVillage.h">
+      <Filter>Pliki nagłówkowe\places</Filter>
+    </ClInclude>
+    <ClInclude Include="town.h">
+      <Filter>Pliki nagłówkowe\places</Filter>
+    </ClInclude>
+    <ClInclude Include="places.h">
+      <Filter>Pliki nagłówkowe\places</Filter>
+    </ClInclude>
+    <ClInclude Include="placesList.h">
+      <Filter>Pliki nagłówkowe\places</Filter>
+    </ClInclude>
+    <ClInclude Include="minersVillage.h">
+      <Filter>Pliki nagłówkowe\places</Filter>
+    </ClInclude>
+    <ClInclude Include="castle.h">
+      <Filter>Pliki nagłówkowe\places</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboardControls.h">
+      <Filter>Pliki nagłówkowe\keys and defines</Filter>
+    </ClInclude>
+    <ClInclude Include="defineThings.h">
+      <Filter>Pliki nagłówkowe\keys and defines</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Pliki nagłówkowe\major</Filter>
+    </ClInclude>
+    <ClInclude Include="gameEvent.h">
+      <Filter>Pliki nagłówkowe\major</Filter>
+    </ClInclude>
+    <ClInclude Include="pawn.h">
+      <Filter>Pliki nagłówkowe\major\map and move</Filter>
+    </ClInclude>
+    <ClInclude Include="mapElement.h">
+      <Filter>Pliki nagłówkowe\major\map and move</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Pliki nagłówkowe\major\map and move</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Pliki nagłówkowe\character and obiects</Filter>
+    </ClInclude>
+    <ClInclude Include="items.h">
+      <Filter>Pliki nagłówkowe\character and obiects</Filter>
+    </ClInclude>
+    <ClInclude Include="obiect.h">
+      <Filter>Pliki nagłówkowe\character and obiects</Filter>
+    </ClInclude>
+    <ClInclude Include="statistics.h">
+      <Filter>Pliki nagłówkowe\character and obiects</Filter>
+    </ClInclude>
+    <ClInclude Include="trade.h">
+      <Filter>Pliki nagłówkowe\character and obiects</Filter>
+    </ClInclude>
+    <ClInclude Include="arcadeGame.h">
+      <Filter>Pliki nagłówkowe\character and obiects</Filter>
+    </ClInclude>
+    <ClInclude Include="prepareToFight.h">
+      <Filter>Pliki nagłówkowe\fightElements</Filter>
+    </ClInclude>
+    <ClInclude Include="fight.h">
+      <Filter>Pliki nagłówkowe\fightElements</Filter>
+    </ClInclude>
+    <ClInclude Include="pathCreator.h">
+      <Filter>Pliki nagłówkowe\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="scriptPlayer.h">
+      <Filter>Pliki nagłówkowe\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="pathNode.h">
+      <Filter>Pliki nagłówkowe\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="save.h">
+      <Filter>Pliki nagłówkowe\major</Filter>
+    </ClInclude>
+    <ClInclude Include="load.h">
+      <Filter>Pliki nagłówkowe\major</Filter>
+    </ClInclude>
+    <ClInclude Include="recon.h">
+      <Filter>Pliki nagłówkowe\places</Filter>
+    </ClInclude>
+    <ClInclude Include="missionCastle.h">
+      <Filter>Pliki nagłówkowe\missions</Filter>
+    </ClInclude>
+    <ClInclude Include="missionMiners.h">
+      <Filter>Pliki nagłówkowe\missions</Filter>
+    </ClInclude>
+    <ClInclude Include="missionTown.h">
+      <Filter>Pliki nagłówkowe\missions</Filter>
+    </ClInclude>
+    <ClInclude Include="missionWoodcutters.h">
+      <Filter>Pliki nagłówkowe\missions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
